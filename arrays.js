@@ -1,7 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-  array = [1]
+  array = [0]
   return array;
 }
 
@@ -18,6 +18,12 @@ function addElementToEndOfArray(array, element) {
 }
 function destructivelyAddElementToEndOfArray(array, element) {
   
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array, element) {
+  const days = ["Monday", "Tuesday", "Wednesday"]
+  days.shift()
+  return days;
 }
 
 
