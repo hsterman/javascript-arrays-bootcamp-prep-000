@@ -21,9 +21,9 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element) {
-  const days = ["Monday", "Tuesday", "Wednesday"]
-  days.shift()
-  return days;
+  array = [0]
+  array.shift("foo")
+  return array;
 }
 
 
